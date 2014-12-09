@@ -2,7 +2,7 @@ class scala {
 
   require wget
 
-  $version = '2.10.3'
+  $version = '2.11.4'
 
   file { '/usr/local':
     ensure => directory,
